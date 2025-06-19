@@ -1,0 +1,9 @@
+﻿@page "/formevento/edit/{idevento}"
+
+<FormEvento idEvento="int.Parse(idevento)" />
+
+@code {
+    [Parameter]
+    public string idevento { get; set; } = null!;
+
+}

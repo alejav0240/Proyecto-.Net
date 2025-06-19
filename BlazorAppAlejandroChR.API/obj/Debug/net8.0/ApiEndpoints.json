@@ -1,0 +1,117 @@
+[
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.AutorController",
+    "Method": "listarAutor",
+    "RelativePath": "api/Autor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.LibroController",
+    "Method": "listarLibros",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.LibroController",
+    "Method": "guardarLibro",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "olibroForm",
+        "Type": "BlazorAppAlejandroChR.Entities.LibroFormCLS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.LibroController",
+    "Method": "recuperarLibroPorId",
+    "RelativePath": "api/Libro/{idlibro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idlibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.LibroController",
+    "Method": "eliminarLibro",
+    "RelativePath": "api/Libro/{idlibro}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idlibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.LibroController",
+    "Method": "recuperararchivoPorId",
+    "RelativePath": "api/Libro/recuperarArchivo/{idlibro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idlibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.TipoLibroController",
+    "Method": "listarTipoLibros",
+    "RelativePath": "api/TipoLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppAlejandroChR.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BlazorAppAlejandroChR.API.WeatherForecast, BlazorAppAlejandroChR.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

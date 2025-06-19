@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppAlejandroChR.Client.styles.css",
+      "PackagePath": "staticwebassets\\BlazorAppAlejandroChR.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\img\\no.jpeg",
+      "PackagePath": "staticwebassets\\img\\no.jpeg"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\js\\inicio.js",
+      "PackagePath": "staticwebassets\\js\\inicio.js"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppAlejandroChR.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppAlejandroChR.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAppAlejandroChR.Client.props",
+      "PackagePath": "build\\BlazorAppAlejandroChR.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppAlejandroChR.Client.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppAlejandroChR.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppAlejandroChR.Client.props",
+      "PackagePath": "buildTransitive\\BlazorAppAlejandroChR.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

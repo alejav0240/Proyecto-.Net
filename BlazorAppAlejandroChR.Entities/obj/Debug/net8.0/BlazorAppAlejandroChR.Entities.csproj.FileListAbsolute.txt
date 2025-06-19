@@ -1,0 +1,11 @@
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\bin\Debug\net8.0\BlazorAppAlejandroChR.Entities.deps.json
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\bin\Debug\net8.0\BlazorAppAlejandroChR.Entities.dll
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\bin\Debug\net8.0\BlazorAppAlejandroChR.Entities.pdb
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\BlazorAppAlejandroChR.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\BlazorAppAlejandroChR.Entities.AssemblyInfoInputs.cache
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\BlazorAppAlejandroChR.Entities.AssemblyInfo.cs
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\BlazorAppAlejandroChR.Entities.csproj.CoreCompileInputs.cache
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\BlazorAppAlejandroChR.Entities.dll
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\refint\BlazorAppAlejandroChR.Entities.dll
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\BlazorAppAlejandroChR.Entities.pdb
+C:\Proyectos\Blazor\BlazorAppAlejandroChR\BlazorAppAlejandroChR.Entities\obj\Debug\net8.0\ref\BlazorAppAlejandroChR.Entities.dll

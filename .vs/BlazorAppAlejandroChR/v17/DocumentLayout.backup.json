@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|c:\\proyectos\\blazor\\blazorappalejandrochr\\blazorappalejandrochr.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|solutionrelative:blazorappalejandrochr.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|c:\\proyectos\\blazor\\blazorappalejandrochr\\blazorappalejandrochr.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|solutionrelative:blazorappalejandrochr.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|c:\\proyectos\\blazor\\blazorappalejandrochr\\blazorappalejandrochr.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|solutionrelative:blazorappalejandrochr.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|c:\\proyectos\\blazor\\blazorappalejandrochr\\blazorappalejandrochr.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDB09DE-CC69-48B7-B1F0-3CACA895FD0D}|BlazorAppAlejandroChR.Client\\BlazorAppAlejandroChR.Client.csproj|solutionrelative:blazorappalejandrochr.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorAppAlejandroChR.Client\\_Imports.razor",
+              "ToolTip": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\_Imports.razor",
+              "RelativeToolTip": "BlazorAppAlejandroChR.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:50:42.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\App.razor",
+              "RelativeDocumentMoniker": "BlazorAppAlejandroChR.Client\\App.razor",
+              "ToolTip": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\App.razor",
+              "RelativeToolTip": "BlazorAppAlejandroChR.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:50:38.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorAppAlejandroChR.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorAppAlejandroChR.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:17:50.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorAppAlejandroChR.Client\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Client\\Program.cs",
+              "RelativeToolTip": "BlazorAppAlejandroChR.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:15:15.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

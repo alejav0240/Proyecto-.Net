@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BlazorAppAlejandroChR.Entities/1.0.0": {
+        "runtime": {
+          "BlazorAppAlejandroChR.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorAppAlejandroChR.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

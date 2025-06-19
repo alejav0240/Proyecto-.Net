@@ -1,0 +1,26 @@
+﻿@inject EventoService eventoService
+
+<div class="input-group my-3">
+    <input type="text" class="form-control" placeholder="Ingrese nombre del evento" aria-label="Recipient's username with two button addons"
+           @bind-values="nombretitulo"
+           @bind-values:event="oninput">
+
+    <button @onclick="buscar" class="btn btn-outline-dark" type="button">Buscar</button>
+    <button @onclick="limpiar" class="btn btn-outline-danger" type="button">Limpiar</button>
+</div>
+
+@code {
+    private string nombretitulo { get; set; } = string.Empty;
+
+    private async Task buscar()
+    {
+        await eventoService.notificarBuscarqueda(nombretitulo);
+    }
+
+    private async Task limpiar()
+    {
+        nombretitulo = string.Empty;
+        await eventoService.notificarBuscarqueda(nombretitulo);
+    }
+
+}

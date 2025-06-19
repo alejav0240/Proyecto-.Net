@@ -1,0 +1,153 @@
+﻿@inject NavigationManager navigationManager
+@inject EventoService eventoService
+@inject TipoEventoService tipoEventoService
+@inject IJSRuntime JS
+@inject ClienteService clienteService
+
+<h2>@nombre</h2>
+
+<EditForm Model="@oEventoCLS" OnValidSubmit="@guardar">
+    <DataAnnotationsValidator />
+    <div class="container mt-3">
+        <ValidationMessage For="@(() => oEventoCLS.idEvento)" />
+        <label class="col-form-label-lg">Id Evento</label>
+        <InputNumber readonly @bind-Value="oEventoCLS.idEvento" class="form-control"></InputNumber>
+    </div>
+    <div class="container mt-3">
+        <ValidationMessage For="@(() => oEventoCLS.nombre)" />
+        <label class="col-form-label-lg">Titulo</label>
+        <InputText @bind-Value="oEventoCLS.nombre" class="form-control"></InputText>
+    </div>
+    <div class="container mt-3">
+        <ValidationMessage For="@(() => oEventoCLS.ubicacion)" />
+        <label class="col-form-label-lg">Ubicacion</label>
+        <InputTextArea @bind-Value="oEventoCLS.ubicacion" class="form-control"></InputTextArea>
+    </div>
+
+    <div class="mt-3">
+        <img src="@imagenPreview" width="150" height="150" alt="Imagen Preview" style="border:1px solid" />
+    </div>
+    <div class="mt-2">
+        <label>Seleccione la imagen</label>
+        <InputFile OnChange="HandleSelected" class="form-control" accept="imagen/*"/>
+    </div>
+
+    <div class="mt-4">
+        <p>Seleccione un archivo </p>
+        <InputFile OnChange="HandleFileSelected" accept=".pdf" class="form-control" />
+        <p @onclick="(()=>descargar(oEventoCLS.idEvento, oEventoCLS.nombrearchivo))"
+        style="cursor:pointer; text-decoration:underline;">
+            @oEventoCLS.nombrearchivo
+            </p>
+    </div>
+
+    <div class="mt-3">
+        <label>Seleccione el tipo de evento</label>
+        <InputSelect class="form-control" @bind-Value="oEventoCLS.idtipoevento">
+            <option value="0">--Seleccione--</option>
+            @foreach (var item in listatipo)
+            {
+                <option value="@item.idTipoevento">@item.nombreTipo</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => oEventoCLS.idtipoevento)" />
+    </div>
+
+    <div class="mt-3">
+        <label>Seleccione el autor</label>
+        <InputSelect class="form-control" @bind-Value="oEventoCLS.idcliente">
+            <option value="0">--Seleccione--</option>
+            @foreach (var item in listaautor)
+            {
+                <option value="@item.idCliente">@item.nombre</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => oEventoCLS.idcliente)" />
+    </div>
+
+    <div class="mt-3 mb-5">
+        <button type="submit" class="btn btn-success">Guardar</button>
+        <button class="btn btn-danger" @onclick="navegar">Regresar</button>
+    </div>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int idEvento { get; set; }
+
+    private string? imagenPreview = "/img/no.jpeg";
+
+    private async Task descargar(int idevento, string nombrearchivo)
+    {
+        string archivo = await eventoService.recuperarArchivoPorId(idevento);  
+        if(archivo != null && archivo.Length > 0)
+        {
+            await JS.InvokeVoidAsync("descargarArchivo", archivo, nombrearchivo);
+        }
+
+    }
+
+    private async Task HandleSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+
+        if (file != null)
+        {
+            var buffer = new byte[file.Size];
+            await file.OpenReadStream().ReadAsync(buffer);
+
+            imagenPreview = $"data:{file.ContentType};base64,{Convert.ToBase64String(buffer)}";
+            oEventoCLS.imagen = buffer;
+        }
+    }
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+
+        oEventoCLS.nombrearchivo = file.Name;
+        Console.WriteLine(oEventoCLS);
+        Console.WriteLine(file.Size);
+        if (file != null)
+        {
+            await file.OpenReadStream().ReadAsync(oEventoCLS.archivo);
+        }
+    }
+
+    public string nombre { get; set; } = "";
+
+    public List<TipoEventoCLS> listatipo { get; set; } = new List<TipoEventoCLS>();
+    
+    public List<ClienteCLS> listaautor { get; set; } = new List<ClienteCLS>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        listatipo = await tipoEventoService.listarTipoEventos();
+        listaautor = await clienteService.listarAutores();
+        if (idEvento == 0) nombre = "Agregar Evento";
+        else {
+            oEventoCLS = await eventoService.recuperarLibroPorId(idEvento);
+            nombre = "Editar Evento"+ oEventoCLS.nombre;
+            if (oEventoCLS.imagen != null)
+            {
+                string contentType = "imagen/jpeg"; // Puedes ajustar esto según el tipo de imagen que esperas
+                imagenPreview = $"data:{contentType};base64,{Convert.ToBase64String(oEventoCLS.imagen)}";
+            }
+        }
+    }
+
+    public EventoCLS oEventoCLS { get; set; } = new EventoCLS();
+
+    private void navegar()
+    {
+        navigationManager.NavigateTo("/evento");
+    }
+
+    private async Task guardar()
+    {
+        Console.WriteLine(oEventoCLS); 
+        await eventoService.guardarLibro(oEventoCLS);
+        navigationManager.NavigateTo("evento");
+
+    }
+}

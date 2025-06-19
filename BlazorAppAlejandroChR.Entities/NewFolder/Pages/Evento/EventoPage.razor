@@ -1,0 +1,18 @@
+﻿@page "/evento"
+@inject NavigationManager navigationManager
+
+<SearchLibro/>
+
+<div class="my3">
+    <button @onclick="nuevo" class="btn btn-outline-success">Agregar Libro</button>
+</div>
+
+<ListLibro/>
+
+@code {
+    private void nuevo()
+    {
+        navigationManager.NavigateTo("/formevento");
+    }
+
+}
