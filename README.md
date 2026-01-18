@@ -29,8 +29,8 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 1.  **Clonar el repositorio:**
 
     ```bash
-    git clone https://github.com/tu-usuario/SistemaDeGestionBibliotecaria.git
-    cd SistemaDeGestionBibliotecaria
+    git clone https://github.com/alejav0240/Proyecto-.Net.git
+    cd Proyecto-.Net
     ```
 
 2.  **Restaurar dependencias:**
