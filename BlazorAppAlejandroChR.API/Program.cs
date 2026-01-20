@@ -22,7 +22,9 @@ builder.Services.AddCors(option =>
 
 builder.Services.AddDbContext<BdbibliotecaContext>(option =>
 {
-    option.UseSqlServer("Server=DESKTOP-4V64PMS;DataBase=BDBIBLIOTECA;Integrated Security=True;Encrypt=False");
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+        ?? "Server=DESKTOP-4V64PMS;DataBase=BDBIBLIOTECA;Integrated Security=True;Encrypt=False";
+    option.UseSqlServer(connectionString);
 });
 
 var app = builder.Build();

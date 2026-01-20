@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IEETMsgwnkk=",
+  "dgSpecHash": "NFOsz0ZbMZ8=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\Blazor\\BlazorAppAlejandroChR\\BlazorAppAlejandroChR.Entities\\BlazorAppAlejandroChR.Entities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\repos\\repos\\Proyecto-.Net\\BlazorAppAlejandroChR.Entities\\BlazorAppAlejandroChR.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleja\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
